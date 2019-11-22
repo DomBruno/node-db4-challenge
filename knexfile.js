@@ -10,7 +10,7 @@ module.exports = {
     useNullAsDefault: true,
     // generates migration files in a data/migrations/ folder
     migrations: {
-      directory: './data/migrations',
+      directory: './migrations',
     },
     seeds: {
       directory: './data/seeds'
